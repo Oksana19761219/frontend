@@ -1,6 +1,9 @@
 .text_box {
     width: 33%;
-    float: left;
+    display: inline-block;
+    position:relative;
+    top: 10px
+
 }
 
 
@@ -15,18 +18,26 @@ p {
     width: 90%;
 }
 
-p, h1,h3 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+p, h1, h3, a {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    font-size: small;
+    color: rgb(145, 0, 0);
+
 }
 
 h1, h3 {
     text-align: center;
     font-weight: bold;
     color: rgb(145, 0, 0);
+
 }
 
 h1 {
     font-size: 50px;
     text-shadow: 3px 3px rgba(65, 65, 65, 0.658);
+
 }
 
 h3 {
@@ -35,18 +46,44 @@ h3 {
 }
 
 body {
-    background: rgb(127, 151, 135);
+    background: rgb(123, 155, 138);
 }
 
-#image {
+.image-chicken {
     width: 30%;
     border-style: solid;
     border-width: 1px;
     border-color: black;
 }
 
-.texts {
+
+.text-1 {
     border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    border-color: rgb(1, 41, 31);
+    border-width: 2px;
+    padding: 0.5cm;
+    margin: 50px 0px;
+}
+
+.text-2 {
+    border-style: double;
+    border-color: rgb(126, 4, 0);
+    border-width: 5px;
+    padding: 1cm;
+    margin-bottom: 1cm;
+}
+
+.paragraph-1 {
+    display: inline-block;
+    max-width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0.5cm;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(100, 0, 0);
+    text-align: center;
+    color: white;
+    padding: 0.5cm;
 }
