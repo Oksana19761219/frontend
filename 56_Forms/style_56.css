@@ -1,0 +1,39 @@
+.form-box {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 20px;
+    width: 400px;
+}
+
+.input-box {
+    display: inline-block;
+    width: 210px;
+    margin: 10px 0px;
+    
+
+}
+
+.input-label {
+    display: inline-block;
+    width: 175px;
+    text-align: right;
+}
+
+
+.title {
+    margin: 0px;
+
+}
+
+fieldset {
+    width: 190px;
+    margin-left: 180px;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+}
