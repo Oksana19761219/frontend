@@ -1,4 +1,4 @@
-function playFizzBuzz (number) {
+function playFizzBuzz(number) {
     let resultArray = []
     let result;
     for (let i = 1; i <= number; i++) {
@@ -8,7 +8,7 @@ function playFizzBuzz (number) {
             result = "buzz";
         } else if (i % 3 === 0) {
             result = "fizz";
-        } else {result = i};
+        } else { result = i };
         resultArray.push(result);
     };
     return resultArray;
